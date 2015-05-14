@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/16.0">
+  <id>com.doitflash.exDependency</id>
+  <versionNumber>1.0</versionNumber>
+  <supportedProfiles>mobileDevice</supportedProfiles>
+  <filename>exDependency</filename>
+  <name>exDependency</name>
+  <android>
+    <manifestAdditions>
+		<![CDATA[<manifest android:installLocation="auto">
+		
+		<uses-permission android:name="android.permission.INTERNET" />
+		
+		<application android:hardwareAccelerated="true" android:allowBackup="true">
+			<activity android:hardwareAccelerated="false">
+				<intent-filter>
+					<action android:name="android.intent.action.MAIN" />
+					<category android:name="android.intent.category.LAUNCHER" />
+				</intent-filter>
+			</activity>
+			
+		</application>
+		
+</manifest>]]></manifestAdditions>
+  </android>
+  <initialWindow>
+    <title>exDependency</title>
+    <content>exDependency.swf</content>
+    <visible>true</visible>
+    <fullScreen>false</fullScreen>
+    <autoOrients>false</autoOrients>
+    <renderMode>direct</renderMode>
+    <systemChrome>standard</systemChrome>
+    <aspectRatio>portrait</aspectRatio>
+  </initialWindow>
+  <icon>
+    <image48x48>icons/icon_48.png</image48x48>
+    <image57x57>icons/icon_57.png</image57x57>
+    <image72x72>icons/icon_72.png</image72x72>
+    <image114x114>icons/icon_114.png</image114x114>
+    <image512x512>icons/icon_512.png</image512x512>
+  </icon>
+  <extensions>
+    <extensionID>com.doitflash.air.extensions.dependency</extensionID>
+  </extensions>
+</application>
