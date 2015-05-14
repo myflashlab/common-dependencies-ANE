@@ -1,5 +1,5 @@
 # Common Dependencies ANE
-This ANE will be used in conjunction with other ANEs that may happen to have used identical third-party libraries. the most common library that is usually found in different native extensions is android-support-v13.jar or android-support-v4.jar and when using two extensions using this library in a project, you will receive many different conflict error messages in your adt compile time.
+This ANE will be used in conjunction with other ANEs that may happen to have used identical third-party libraries. the most common library that is usually found in different native extensions is **android-support-v13.jar** or **android-support-v4.jar** and when using two extensions using this library in a project, you will receive many different conflict error messages in your adt compile time.
 
 to solve this problem in our extensions, we decided to move all the possible third-party (common) dependencies to another ANE which you can simply add to your project and everything will work like before.
 
