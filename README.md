@@ -3,6 +3,14 @@ This ANE will be used in conjunction with other ANEs that may happen to have use
 
 to solve this problem in our extensions, we decided to move all the possible third-party (common) dependencies to another ANE which you can simply add to your project and everything will work like before.
 
+# what's the different between commonDependencies.ane versions?
+**V1.0** includes the older version of android-support-v13.jar which works with most of our extensions and it's 1.19 MB
+**V2.0** includes the latest version of android-support-v13.jar + latest version of google-play-services.jar which is needed only on our Facebook and GCM Extensions. it's size is 11.2 MB
+
+you can safely use the older commonDependencies.ane if you are not using Facebook or GCM extensions in your project.
+
+**NOTE:** you can have only one commonDependencies.ane in your project.
+
 # How to use commonDependencies.ane
 All you have to do is to add this ane to your project and make sure it is declared in the air .xml manifest file as follow:
 
