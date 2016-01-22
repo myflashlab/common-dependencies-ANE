@@ -23,15 +23,5 @@ All you have to do is to add this ane to your project and make sure it is declar
 
 **you don't have to initialize anything in your AS3 codes. just make sure it will be compiled in your project**
 
-yet, it's important to mention that when compiling for iOS, you must make sure that your are setting "hideAneLibSymbols" to true. if you are using FlashDevelop, your adt command should look like this:
-
-```
-adt -package -target ipa-debug-interpreter -hideAneLibSymbols yes -storetype pkcs12 -keystore "%IOS_DEV_CERT_FILE%" -storepass %IOS_DEV_CERT_PASS% -provisioning-profile %IOS_PROVISION_DEV% "%OUTPUT%" "%APP_XML%" %FILE_OR_DIR% -extdir lib/
-```
-
-and if you are using FlashBuilder, you should make sure that the "Hide ANE-Library-Symbols" check box is checked under the "Native Extensions" tab in "ActionScript Build Packaging" menu.
-
-But if you are using Flash IDE, we really don't know how to hide ANE lib symbols! we don't use Flash IDE and we don't have much experience with it. we would appriciate if someone can tell us how to do that in Flash IDE and I will update this text :)
-
 Enjoy building Flash apps,
 MyFLashLab Team
