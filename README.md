@@ -21,5 +21,5 @@ All you have to do is to add these ANEs to your air .xml manifest file as follow
 <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
 ```
 
-Enjoy building Adobe Air apps,
+Enjoy building Adobe Air apps,  
 MyFLashLabs Team
