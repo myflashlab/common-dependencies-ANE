@@ -29,6 +29,12 @@ All you have to do is to add these ANEs to your air .xml manifest file as follow
 <!-- googlePlayServices_location.ane V8.4.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.location</extensionID>
 
+<!-- googlePlayServices_plus.ane V8.4.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.plus</extensionID>
+
+<!-- googlePlayServices_drive.ane V8.4.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.drive</extensionID>
+
 <!-- overrideAir.ane V2.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
 ```
