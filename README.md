@@ -11,7 +11,7 @@ If you are using two ANEs which both declair that they are dependent on one of t
 All you have to do is to add these ANEs to your air .xml manifest file as follow. You don't have to initialize anything in your AS3 codes. just make sure they will be compiled in your project.
 
 ```xml
-<!-- androidSupport.ane V23.0.0 -->
+<!-- androidSupport.ane V23.4.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.androidSupport</extensionID>
 
 <!-- overrideAir.ane V2.0.0 -->
