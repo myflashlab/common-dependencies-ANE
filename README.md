@@ -1,61 +1,89 @@
-# Common Dependencies ANEs
-Many of our ANEs are using shared libraries. To make sure your app size is not increased with unused native codes we took one step deeper into these shared libraries and created seperated ANEs holding different shared native libs. This approach will make sure your apps will be smaller in size compared to any other solutions.
+The main job of *Common Dependency ANEs* is to solve the problem of ANE conflicts. When using a lot of different ANEs in your Air project, it's very probable that some of these ANEs are using some shared libraries like the Google Play Services. If this happens, you won't be able to compile your project while using the two ANEs! This problem often happens when you are using ANEs from different providers. So, with this package of so called *Common Dependency ANEs*, we are trying to solve this problem once and forever. We are allowing other ANE providers/developers to freely use these ANEs in their projects, even the commercial ones! The Adobe Air community will greatly benefit from this we're sure.
 
-For you to know which ANE requires these common dependency ANEs, you need to read the **Requirements** section of that ANE where it clearly specifies which common ANEs from here you should add to your project.
+<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a>
 
-As an example, look at the [Requirements section of the Facebook ANE](https://github.com/myflashlab/facebook-ANE#requirements)
+The other job of these ANEs is to make sure you are adding the minimum required amount of native code to your project. This will help you decrease the byte size of your final application. This approach will make sure your apps will be smaller in size compared to any other solutions.
 
-If you are using two ANEs which both declair that they are dependent on one of these common-dependency ANEs, you must add it only once to your project. The result will be that those two ANEs will both use the one reference common-dependency ANE and there will be no conflict between them and eventually a smaller file size.
+# For Adobe Air developers
+If you are an Air developer, using ANEs in your project, you can benefit from common dependencies based on what ANEs you are using. For you to know which ANE requires these common dependencies, you need to read the **Requirements** section of that ANE where it clearly specifies which common ANEs from here you should add to your project. As an example, look at the [Requirements section of our Facebook ANE](https://github.com/myflashlab/facebook-ANE#requirements)
+
+# For ANE developers/providers
+We are inviting ANY Air Native Extension developer/provider to freely use these dependencies in their free or commercial ANE products. These ANEs include the native APIs + required resources and when added to the air manifest .xml, they will automatically be ready to be used. You can address the native APIs provided by these ANEs from within your ANE. if you have any question about how you can use these ANEs in your ANE development process, don't hesitate to [contact us](http://www.myflashlabs.com/contact/).
+
+# How upto-date are we?
+VERY! we are constantly monitoring the latest releases of these shared libraries and will update these ANEs as soon as we feel it's vital and required. This does not necessarily mean that the ANE version should match the native version.
 
 # How to use common dependency ANEs
-All you have to do is to add these ANEs to your air .xml manifest file as follow. You don't have to initialize anything in your AS3 codes. just make sure they will be compiled in your project.
+These ANEs are transpiled from native API to ActionScript. to add them to your project, all you have to do is to add these ANEs to your air .xml manifest file. You don't have to initialize them in your project. just make sure they will be compiled in your project and you're done.
 
+**Android Support Library**. current ANE version is V23.4.0 https://developer.android.com/topic/libraries/support-library/revisions.html
 ```xml
-<!-- androidSupport.ane V23.4.0 -->
+<!-- androidSupport.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.androidSupport</extensionID>
+```
 
+**Override Air** ANE is developed by MyFlashLabs Team and is used to overrid some ANE methods provided by Adobe so ANE developers can have access to them. This will help decrease the process of developing an ANE greatly. 
+```xml
 <!-- overrideAir.ane V2.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
+```
 
-<!-- googlePlayServices_ads.ane V9.0.1 -->
+**Google Play Services**. current ANE version is V9.0.1 https://developers.google.com/android/guides/releases
+```xml
+<!-- googlePlayServices_ads.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads</extensionID>
 
-<!-- googlePlayServices_adsLite.ane V9.0.1 -->
+<!-- googlePlayServices_adsLite.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads.lite</extensionID>
 
-<!-- googlePlayServices_auth.ane V9.0.1 -->
+<!-- googlePlayServices_auth.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.auth</extensionID>
 
-<!-- googlePlayServices_authBase.ane V9.0.1 -->
+<!-- googlePlayServices_authBase.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.auth.base</extensionID>
 
-<!-- googlePlayServices_base.ane V9.0.1 -->
+<!-- googlePlayServices_base.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.base</extensionID>
 
-<!-- googlePlayServices_basement.ane V9.0.1 -->
+<!-- googlePlayServices_basement.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.basement</extensionID>
 
-<!-- googlePlayServices_drive.ane V9.0.1 -->
+<!-- googlePlayServices_drive.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.drive</extensionID>
 
-<!-- googlePlayServices_games.ane V9.0.1 -->
+<!-- googlePlayServices_games.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.games</extensionID>
 
-<!-- googlePlayServices_gcm.ane V9.0.1 -->
+<!-- googlePlayServices_gcm.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.gcm</extensionID>
 
-<!-- googlePlayServices_iid.ane V9.0.1 -->
+<!-- googlePlayServices_iid.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.iid</extensionID>
 
-<!-- googlePlayServices_location.ane V9.0.1 -->
+<!-- googlePlayServices_location.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.location</extensionID>
 
-<!-- googlePlayServices_plus.ane V9.0.1 -->
+<!-- googlePlayServices_plus.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.plus</extensionID>
 
-<!-- googlePlayServices_tasks.ane V9.0.1 -->
+<!-- googlePlayServices_tasks.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.tasks</extensionID>
 ```
 
+**Google Virtual Reality**. current ANE version is V0.8.1 https://developers.google.com/vr/android/release-notes
+```xml
+<!-- gvr_common.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.gvr.common</extensionID>
+
+<!-- gvr_commonwidget.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.gvr.commonwidget</extensionID>
+
+<!-- gvr_panowidget.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.gvr.panowidget</extensionID>
+
+<!-- gvr_videowidget.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.gvr.videowidget</extensionID>
+```
+
 Enjoy building Adobe Air apps,  
-MyFLashLabs Team
+MyFlashLabs Team
