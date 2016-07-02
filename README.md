@@ -28,13 +28,19 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
 ```
 
-**Google Play Services**. current ANE version is V9.0.1 https://developers.google.com/android/guides/releases
+**Google Play Services**. current ANE version is V9.2.1 https://developers.google.com/android/guides/releases
 ```xml
 <!-- googlePlayServices_ads.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads</extensionID>
 
 <!-- googlePlayServices_adsLite.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads.lite</extensionID>
+
+<!-- googlePlayServices_analytics.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.analytics</extensionID>
+
+<!-- googlePlayServices_analyticsImpl.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.analytics.impl</extensionID>
 
 <!-- googlePlayServices_auth.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.auth</extensionID>
@@ -62,6 +68,15 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 
 <!-- googlePlayServices_location.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.location</extensionID>
+
+<!-- googlePlayServices_maps.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.maps</extensionID>
+
+<!-- googlePlayServices_nearby.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.nearby</extensionID>
+
+<!-- googlePlayServices_places.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.places</extensionID>
 
 <!-- googlePlayServices_plus.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.plus</extensionID>
