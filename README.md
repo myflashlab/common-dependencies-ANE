@@ -22,9 +22,9 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 <extensionID>com.myflashlab.air.extensions.dependency.androidSupport</extensionID>
 ```
 
-**Override Air** ANE is developed by MyFlashLabs Team and is used to overrid some ANE methods provided by Adobe so ANE developers can have access to them. This will help decrease the process of developing an ANE greatly. 
+**Override Air** ANE V2.0.0 is developed by MyFlashLabs Team and is used to overrid some ANE methods provided by Adobe so ANE developers can have access to them. This will help decrease the process of developing an ANE greatly. 
 ```xml
-<!-- overrideAir.ane V2.0.0 -->
+<!-- overrideAir.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
 ```
 
