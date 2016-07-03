@@ -100,5 +100,50 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 <extensionID>com.myflashlab.air.extensions.dependency.gvr.videowidget</extensionID>
 ```
 
+**Firebase**. current ANE version is V9.2.0 https://firebase.google.com/support/releases
+```xml
+<!-- firebase_analyticsImpl.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics.impl</extensionID>
+
+<!-- firebase_auth.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.auth</extensionID>
+
+<!-- firebase_authCommon.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.auth.common</extensionID>
+
+<!-- firebase_authModule.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.auth.module</extensionID>
+
+<!-- firebase_common.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.common</extensionID>
+
+<!-- firebase_config.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.config</extensionID>
+
+<!-- firebase_crash.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.crash</extensionID>
+
+<!-- firebase_database.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.database</extensionID>
+
+<!-- firebase_databaseConnection.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.database.connection</extensionID>
+
+<!-- firebase_iid.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.iid</extensionID>
+
+<!-- firebase_messaging.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.messaging</extensionID>
+
+<!-- firebase_storage.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.storage</extensionID>
+
+<!-- firebase_storageCommon.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.storage.common</extensionID>
+
+<!-- firebase-analytics.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics</extensionID>
+```
+
 Enjoy building Adobe Air apps,  
-MyFlashLabs Team
+[MyFlashLabs Team](http://www.myflashlabs.com/)
