@@ -10,24 +10,27 @@ If you are an Air developer, using ANEs in your project, you can benefit from co
 # For ANE developers/providers
 We are inviting ANY Air Native Extension developer/provider to freely use these dependencies in their free or commercial ANE products. These ANEs include the native APIs + required resources and when added to the air manifest .xml, they will automatically be ready to be used. You can address the native APIs provided by these ANEs from within your ANE. if you have any question about how you can use these ANEs in your ANE development process, don't hesitate to [contact us](http://www.myflashlabs.com/contact/).
 
-# How upto-date are we?
+# How up-to-date are we?
 VERY! we are constantly monitoring the latest releases of these shared libraries and will update these ANEs as soon as we feel it's vital and required. This does not necessarily mean that the ANE version should match the native version.
 
 # How to use common dependency ANEs
 These ANEs are transpiled from native API to ActionScript. to add them to your project, all you have to do is to add these ANEs to your air .xml manifest file. You don't have to initialize them in your project. just make sure they will be compiled in your project and you're done.
 
+------------------------------------------------------
 **Android Support Library**. current ANE version is V23.4.0 https://developer.android.com/topic/libraries/support-library/revisions.html
 ```xml
 <!-- androidSupport.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.androidSupport</extensionID>
 ```
 
+------------------------------------------------------
 **Override Air** ANE V2.0.0 is developed by MyFlashLabs Team and is used to overrid some ANE methods provided by Adobe so ANE developers can have access to them. This will help decrease the process of developing an ANE greatly. 
 ```xml
 <!-- overrideAir.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
 ```
 
+------------------------------------------------------
 **Google Play Services**. current ANE version is V9.2.1 https://developers.google.com/android/guides/releases
 ```xml
 <!-- googlePlayServices_ads.ane -->
@@ -85,6 +88,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.tasks</extensionID>
 ```
 
+------------------------------------------------------
 **Google Virtual Reality**. current ANE version is V0.8.1 https://developers.google.com/vr/android/release-notes
 ```xml
 <!-- gvr_common.ane -->
@@ -100,6 +104,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 <extensionID>com.myflashlab.air.extensions.dependency.gvr.videowidget</extensionID>
 ```
 
+------------------------------------------------------
 **Firebase**. current ANE version is V9.2.0 https://firebase.google.com/support/releases
 ```xml
 <!-- firebase_analyticsImpl.ane -->
