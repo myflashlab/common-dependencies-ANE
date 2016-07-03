@@ -8,7 +8,7 @@ The other job of these ANEs is to make sure you are adding the minimum required 
 If you are an Air developer, using ANEs in your project, you can benefit from common dependencies based on what ANEs you are using. For you to know which ANE requires these common dependencies, you need to read the **Requirements** section of that ANE where it clearly specifies which common ANEs from here you should add to your project. As an example, look at the [Requirements section of our Facebook ANE](https://github.com/myflashlab/facebook-ANE#requirements)
 
 # For ANE developers/providers
-We are inviting ALL Air Native Extension developer/provider to freely use these dependencies in their free or commercial ANE products. These ANEs include the native APIs + required resources and when added to the air manifest .xml, they will automatically be ready to be used. You can address the native APIs provided by these ANEs from within your ANE. if you have any question about how you can use these ANEs in your ANE development process, don't hesitate to [contact us](http://www.myflashlabs.com/contact/).
+We are inviting ALL Air Native Extension developers/providers to freely use these dependencies in their free or commercial ANE products. These ANEs include the native APIs + required resources and when added to the air manifest .xml, they will automatically be ready to be used. You can address the native APIs provided by these ANEs from within your ANE. if you have any question about how you can use these ANEs in your ANE development process, don't hesitate to [contact us](http://www.myflashlabs.com/contact/).
 
 # How up-to-date are we?
 VERY! we are constantly monitoring the latest releases of these shared libraries and will update these ANEs as soon as we feel it's vital and required. This does not necessarily mean that the ANE version should match the native version.
@@ -105,7 +105,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Firebase**. current ANE version is V9.2.0 https://firebase.google.com/support/releases
+**Firebase**. current ANE version is V9.2.0 (June 29, 2016) https://firebase.google.com/support/releases
 ```xml
 <!-- firebase_analyticsImpl.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics.impl</extensionID>
