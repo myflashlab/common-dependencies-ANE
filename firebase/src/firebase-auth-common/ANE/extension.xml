@@ -1,0 +1,37 @@
+<extension xmlns="http://ns.adobe.com/air/extension/19.0">
+  <id>com.myflashlab.air.extensions.dependency.firebase.auth.common</id>
+  <versionNumber>9.6.1</versionNumber>
+  <copyright>2016, MyFlashLabs.com All rights reserved.</copyright>
+  <description>
+		<text xml:lang="en">Air Native Extension!</text> 
+  </description> 
+  <platforms>
+  
+    <platform name="Android-ARM">
+		<applicationDeployment>
+			<nativeLibrary>classes.jar</nativeLibrary>
+			<initializer>com.myflashlab.dependency.firebase.auth.common.MyExtension</initializer>
+			<finalizer>com.myflashlab.dependency.firebase.auth.common.MyExtension</finalizer>
+		</applicationDeployment>
+    </platform>
+	
+	<platform name="Android-x86">
+		<applicationDeployment>
+			<nativeLibrary>classes.jar</nativeLibrary>
+			<initializer>com.myflashlab.dependency.firebase.auth.common.MyExtension</initializer>
+			<finalizer>com.myflashlab.dependency.firebase.auth.common.MyExtension</finalizer>
+		</applicationDeployment>
+    </platform>
+	
+	<platform name="iPhone-ARM">
+		<applicationDeployment>
+			
+		</applicationDeployment>
+	</platform>
+	
+	<platform name="default"> 
+		<applicationDeployment/>
+	</platform> 
+	
+  </platforms>
+</extension>
