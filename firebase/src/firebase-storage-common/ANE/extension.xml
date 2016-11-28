@@ -1,6 +1,6 @@
 <extension xmlns="http://ns.adobe.com/air/extension/19.0">
   <id>com.myflashlab.air.extensions.dependency.firebase.storage.common</id>
-  <versionNumber>9.6.1</versionNumber>
+  <versionNumber>10.0.0</versionNumber>
   <copyright>2016, MyFlashLabs.com All rights reserved.</copyright>
   <description>
 		<text xml:lang="en">Air Native Extension!</text> 

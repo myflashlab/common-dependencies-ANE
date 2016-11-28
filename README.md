@@ -17,7 +17,7 @@ VERY! we are constantly monitoring the latest releases of these shared libraries
 These ANEs are transpiled from native API to ActionScript. to add them to your project, all you have to do is to add these ANEs to your air .xml manifest file. You don't have to initialize them in your project. just make sure they will be compiled in your project and you're done.
 
 ------------------------------------------------------
-**Android Support Library**. current ANE version is V23.4.0 https://developer.android.com/topic/libraries/support-library/revisions.html
+**Android Support Library**. current ANE version is V24.2.1 https://developer.android.com/topic/libraries/support-library/revisions.html
 ```xml
 <!-- androidSupport.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.androidSupport</extensionID>
@@ -31,7 +31,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Google Play Services**. current ANE version is V9.6.1 https://developers.google.com/android/guides/releases
+**Google Play Services**. current ANE version is V10.0.0 https://developers.google.com/android/guides/releases
 ```xml
 <!-- googlePlayServices_ads.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads</extensionID>
@@ -45,6 +45,9 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 <!-- googlePlayServices_analyticsImpl.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.analytics.impl</extensionID>
 
+<!-- googlePlayServices_appinvite.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.appinvite</extensionID>
+
 <!-- googlePlayServices_auth.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.auth</extensionID>
 
@@ -57,17 +60,29 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 <!-- googlePlayServices_basement.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.basement</extensionID>
 
+<!-- googlePlayServices_clearcut.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.clearcut</extensionID>
+
 <!-- googlePlayServices_drive.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.drive</extensionID>
 
 <!-- googlePlayServices_games.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.games</extensionID>
 
+<!-- googlePlayServices_gass.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.gass</extensionID>
+
 <!-- googlePlayServices_gcm.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.gcm</extensionID>
 
+<!-- googlePlayServices_identity.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.identity</extensionID>
+
 <!-- googlePlayServices_iid.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.iid</extensionID>
+
+<!-- googlePlayServices_instantapps.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.instantapps</extensionID>
 
 <!-- googlePlayServices_location.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.location</extensionID>
@@ -77,6 +92,9 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 
 <!-- googlePlayServices_nearby.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.nearby</extensionID>
+
+<!-- googlePlayServices_panorama.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.panorama</extensionID>
 
 <!-- googlePlayServices_places.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.places</extensionID>
@@ -105,19 +123,16 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Firebase**. current ANE version is V9.6.1 (Sep 21, 2016) https://firebase.google.com/support/releases
+**Firebase**. current ANE version is V10.0.0 (Nov 21, 2016) https://firebase.google.com/support/releases
 ```xml
 <!-- firebase_analyticsImpl.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics.impl</extensionID>
 
+<!-- firebase_appindexing.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.appindexing</extensionID>
+
 <!-- firebase_auth.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.auth</extensionID>
-
-<!-- firebase_authCommon.ane -->
-<extensionID>com.myflashlab.air.extensions.dependency.firebase.auth.common</extensionID>
-
-<!-- firebase_authModule.ane -->
-<extensionID>com.myflashlab.air.extensions.dependency.firebase.auth.module</extensionID>
 
 <!-- firebase_common.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.common</extensionID>
