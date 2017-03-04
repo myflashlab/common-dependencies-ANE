@@ -7,11 +7,12 @@ package com.myflashlab.air.extensions.dependency
 	 * @private
 	 * 
 	 * @author Hadi Tavakoli - 11/23/2016 1:44 PM
+	 * 							2/20/2017 6:40 PM
 	 */
 	public class Firebase_appindexing extends EventDispatcher
 	{
 		public static const EXTENSION_ID:String = "com.myflashlab.air.extensions.dependency.firebase.appindexing";
-		public static const VERSION:String = "10.0.0";
+		public static const VERSION:String = "10.2.0";
 		private var _context:ExtensionContext;
 		
 		public function Firebase_appindexing():void

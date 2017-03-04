@@ -7,11 +7,12 @@ package com.myflashlab.air.extensions.dependency
 	 * @private
 	 * 
 	 * @author Hadi Tavakoli - 2/16/2016 12:54 PM
+	 * 							2/20/2017 6:40 PM
 	 */
 	public class Firebase_database extends EventDispatcher
 	{
 		public static const EXTENSION_ID:String = "com.myflashlab.air.extensions.dependency.firebase.database";
-		public static const VERSION:String = "10.0.0";
+		public static const VERSION:String = "10.2.0";
 		private var _context:ExtensionContext;
 		
 		public function Firebase_database():void

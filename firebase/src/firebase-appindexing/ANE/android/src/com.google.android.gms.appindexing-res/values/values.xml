@@ -96,6 +96,8 @@
 
 <enum name="url" value="3"/>
 
+<enum name="date" value="4"/>
+
 </attr>
 
 <attr name="noIndex" format="boolean"/>

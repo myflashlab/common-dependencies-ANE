@@ -24,14 +24,14 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Override Air** ANE V3.0.0 is developed by MyFlashLabs Team and is used to overrid some ANE methods provided by Adobe so ANE developers can have access to them. This will help decrease the process of developing an ANE greatly. 
+**Override Air** ANE V4.0.0 is developed by MyFlashLabs Team and is used to overrid some ANE methods provided by Adobe along with overriding some native methods on iOS and Android so ANE developers can have access to them with more comfort. This will help decrease the process of developing an ANE greatly. Note that this ANE is always required (on Android and iOS) if you are using any of MyFlashLabs ANEs.
 ```xml
 <!-- overrideAir.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
 ```
 
 ------------------------------------------------------
-**Google Play Services**. current ANE version is V10.0.0 https://developers.google.com/android/guides/releases
+**Google Play Services**. current ANE version is V10.2.0 https://developers.google.com/android/guides/releases
 ```xml
 <!-- googlePlayServices_ads.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads</extensionID>
@@ -123,7 +123,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Firebase**. current ANE version is V10.0.0 (Nov 21, 2016) https://firebase.google.com/support/releases
+**Firebase**. current ANE version is V10.2.0 (Feb 15, 2017) https://firebase.google.com/support/releases
 ```xml
 <!-- firebase_analyticsImpl.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics.impl</extensionID>
