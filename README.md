@@ -111,7 +111,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Google Virtual Reality**. current ANE version is V0.9.1 https://developers.google.com/vr/android/release-notes
+**Google Virtual Reality**. current ANE version is V1.40.0 https://developers.google.com/vr/android/release-notes
 ```xml
 <!-- gvr_common.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.gvr.common</extensionID>
@@ -127,7 +127,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Firebase**. current ANE version is V10.2.0 (Feb 15, 2017) https://firebase.google.com/support/releases
+**Firebase**. current ANE version is V10.2.0 (Feb 15, 2017) https://firebase.google.com/support/release-notes/android
 ```xml
 <!-- firebase_analyticsImpl.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics.impl</extensionID>
