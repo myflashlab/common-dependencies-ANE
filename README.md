@@ -21,7 +21,7 @@ VERY! we are constantly monitoring the latest releases of these shared libraries
 These ANEs are transpiled from native API to ActionScript. to add them to your project, all you have to do is to add these ANEs to your air .xml manifest file. You don't have to initialize them in your project. just make sure they will be compiled in your project and you're done.
 
 ------------------------------------------------------
-**Android Support Library**. current ANE version is V24.2.2 https://developer.android.com/topic/libraries/support-library/revisions.html
+**Android Support Library**. current ANE version is V25.3.1 https://developer.android.com/topic/libraries/support-library/revisions.html
 ```xml
 <!-- androidSupport.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.androidSupport</extensionID>
