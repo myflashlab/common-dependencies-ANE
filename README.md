@@ -35,7 +35,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Google Play Services**. current ANE version is V10.2.0 https://developers.google.com/android/guides/releases
+**Google Play Services**. current ANE version is V11.0.2 https://developers.google.com/android/guides/releases
 ```xml
 <!-- googlePlayServices_ads.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads</extensionID>
