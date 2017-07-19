@@ -28,7 +28,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Override Air** ANE V4.0.0 is developed by MyFlashLabs Team and is used to overrid some ANE methods provided by Adobe along with overriding some native methods on iOS and Android so ANE developers can have access to them with more comfort. This will help decrease the process of developing an ANE greatly. Note that this ANE is always required (on Android and iOS) if you are using any of MyFlashLabs ANEs.
+**Override Air** ANE V4.0.0 is developed by MyFlashLabs Team and is used to override some ANE methods provided by Adobe along with overriding some native methods on iOS and Android so ANE developers can have access to them with more comfort. This will help decrease the process of developing an ANE greatly. Note that this ANE is always required (on Android and iOS) if you are using any of MyFlashLabs ANEs.
 ```xml
 <!-- overrideAir.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
@@ -127,7 +127,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Firebase**. current ANE version is V10.2.0 (Feb 15, 2017) https://firebase.google.com/support/release-notes/android
+**Firebase**. current ANE version is V11.0.2 (Jun 29, 2017) https://firebase.google.com/support/release-notes/android
 ```xml
 <!-- firebase_analyticsImpl.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics.impl</extensionID>
@@ -152,6 +152,9 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 
 <!-- firebase_databaseConnection.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.database.connection</extensionID>
+
+<!-- firebase_dynamicLinks.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.dynamicLinks</extensionID>
 
 <!-- firebase_iid.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.iid</extensionID>

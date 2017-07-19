@@ -1,1 +1,1 @@
-<platform xmlns="http://ns.adobe.com/air/extension/19.0">    <sdkVersion>4.0.0</sdkVersion>    <linkerOptions>        <option>-ios_version_min 6.1</option>		<option>-w</option>    </linkerOptions></platform>
+<platform xmlns="http://ns.adobe.com/air/extension/25.0">    <sdkVersion>8.0.0</sdkVersion>    <linkerOptions>        <option>-ios_version_min 8.0</option>		<option>-w</option>    </linkerOptions></platform>
