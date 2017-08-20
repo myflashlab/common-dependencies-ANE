@@ -14,11 +14,7 @@ OverrideAir.enableDebugger(myDebuggerDelegate);
 // create a function with three inputs as follow to receive the debugging information
 function myDebuggerDelegate($ane:String, $class:String, $msg:String):void
 {
-	trace("------------------");
-	trace("$ane = " + $ane);
-	trace("$class = " + $class);
-	trace("$msg = " + $msg);
-	trace("------------------");
+	trace($ane+"("+$class+") "+$msg);
 }
 ```
 
