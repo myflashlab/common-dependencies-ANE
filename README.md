@@ -2,7 +2,7 @@
 
 ----------------------------------------
 
-The main job of *Common Dependency ANEs* is to solve the problem of ANE conflicts **in Android builds (iOS does not need this solution)**. When using a lot of different ANEs in your Air project, it's very probable that some of these ANEs are using some shared libraries like the Google Play Services. If this happens, you won't be able to compile your project while using the two ANEs! This problem often happens when you are using ANEs from different providers. So, with this package of so called *Common Dependency ANEs*, we are trying to solve this problem once and forever. We are allowing other ANE providers/developers to freely use these ANEs in their projects, even the commercial ones! The Adobe Air community will greatly benefit from this we're sure.
+The main job of *Common Dependency ANEs* is to solve the problem of ANE conflicts mainly in Android builds. When using a lot of different ANEs in your Air project, it's very probable that some of these ANEs are using some shared libraries like the Google Play Services. If this happens, you won't be able to compile your project while using the two ANEs! This problem often happens when you are using ANEs from different providers. So, with this package of so called *Common Dependency ANEs*, we are trying to solve this problem once and forever. We are allowing other ANE providers/developers to freely use these ANEs in their projects, even the commercial ones! The Adobe Air community will greatly benefit from this we're sure.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a>
 
@@ -28,7 +28,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Override Air** current version is V4.1.0 This ANE is used to override some ANE methods provided by Adobe along with overriding some native methods on iOS and Android so ANE developers can have access to them with more comfort. This will help decrease the process of developing an ANE greatly. Note that this ANE is always required (on Android and iOS) if you are using any of MyFlashLabs ANEs.
+**Override Air** current version is V5.0.0 This ANE is used to override some ANE methods provided by Adobe along with overriding some native methods on iOS and Android so ANE developers can have access to them with more comfort. This will help decrease the process of developing an ANE greatly. Note that this ANE is always required (on Android and iOS) if you are using any of MyFlashLabs ANEs. You don't need to initialize this ANE in your project. Our other ANEs will use it anyway whenever they need it.
 ```xml
 <!-- overrideAir.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
