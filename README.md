@@ -127,7 +127,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Firebase**. current ANE version is V11.0.2 (Jun 29, 2017) https://firebase.google.com/support/release-notes/android
+**Firebase**. current ANE version is V11.6.0 (Nov 06, 2017) https://firebase.google.com/support/release-notes/android
 ```xml
 <!-- firebase_analyticsImpl.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics.impl</extensionID>
@@ -156,11 +156,17 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 <!-- firebase_dynamicLinks.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.dynamicLinks</extensionID>
 
+<!-- firebase_firestore.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.firestore</extensionID>
+
 <!-- firebase_iid.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.iid</extensionID>
 
 <!-- firebase_messaging.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.messaging</extensionID>
+
+<!-- firebase_perf.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.perf</extensionID>
 
 <!-- firebase_storage.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.storage</extensionID>
