@@ -35,7 +35,7 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Google Play Services**. current ANE version is V11.0.2 https://developers.google.com/android/guides/releases
+**Google Play Services**. current ANE version is V11.6.0 https://developers.google.com/android/guides/releases
 ```xml
 <!-- googlePlayServices_ads.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads</extensionID>
@@ -63,9 +63,6 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 
 <!-- googlePlayServices_basement.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.basement</extensionID>
-
-<!-- googlePlayServices_clearcut.ane -->
-<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.clearcut</extensionID>
 
 <!-- googlePlayServices_drive.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.drive</extensionID>
