@@ -21,10 +21,37 @@ VERY! we are constantly monitoring the latest releases of these shared libraries
 These ANEs are transpiled from native API to ActionScript. to add them to your project, all you have to do is to add these ANEs to your air .xml manifest file. You don't have to initialize them in your project. just make sure they will be compiled in your project and you're done.
 
 ------------------------------------------------------
-**Android Support Libraries**. current ANE version is V27.0.2 https://developer.android.com/topic/libraries/support-library/revisions.html
+**Android Support Libraries**. https://developer.android.com/topic/libraries/support-library/revisions.html
 ```xml
-<!-- androidSupport.ane -->
-<extensionID>com.myflashlab.air.extensions.dependency.androidSupport</extensionID>
+<!-- androidSupport-core.ane V27.1.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.core</extensionID>
+
+<!-- androidSupport-v4.ane V27.1.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.v4</extensionID>
+
+<!-- androidSupport-appcompatV7.ane V27.1.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.appcompatV7</extensionID>
+
+<!-- androidSupport-arch.ane V1.1.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.arch</extensionID>
+
+<!-- androidSupport-cardviewV7.ane V27.1.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.cardviewV7</extensionID>
+
+<!-- androidSupport-customtabs.ane V27.1.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.customtabs</extensionID>
+
+<!-- androidSupport-design.ane V27.1.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.design</extensionID>
+
+<!-- androidSupport-exifinterface.ane V27.1.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.exifinterface</extensionID>
+
+<!-- androidSupport-mediarouterV7.ane V27.1.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.mediarouterV7</extensionID>
+
+<!-- androidSupport-v13.ane V27.1.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.v13</extensionID>
 ```
 
 ------------------------------------------------------
