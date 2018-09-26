@@ -171,55 +171,67 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 ```
 
 ------------------------------------------------------
-**Firebase**. current ANE version is V12.0.1 (Mar 28, 2018) https://firebase.google.com/support/release-notes/android
+**Firebase**. https://firebase.google.com/support/release-notes/android
 ```xml
-<!-- firebase_analyticsImpl.ane -->
+<!-- firebase_abt.ane V16.0.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.abt</extensionID>
+
+<!-- firebase_addons.ane V1.0.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.addons</extensionID>
+
+<!-- firebase_analytics.ane V16.0.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics</extensionID>
+
+<!-- firebase_analyticsImpl.ane V16.1.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics.impl</extensionID>
 
-<!-- firebase_appindexing.ane -->
+<!-- firebase_appindexing.ane V16.0.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.appindexing</extensionID>
 
-<!-- firebase_auth.ane -->
+<!-- firebase_auth.ane V16.0.2 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.auth</extensionID>
 
-<!-- firebase_common.ane -->
+<!-- firebase_common.ane V16.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.common</extensionID>
 
-<!-- firebase_config.ane -->
+<!-- firebase_config.ane V16.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.config</extensionID>
 
-<!-- firebase_crash.ane -->
-<extensionID>com.myflashlab.air.extensions.dependency.firebase.crash</extensionID>
-
-<!-- firebase_database.ane -->
+<!-- firebase_database.ane V16.0.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.database</extensionID>
 
-<!-- firebase_databaseConnection.ane -->
-<extensionID>com.myflashlab.air.extensions.dependency.firebase.database.connection</extensionID>
+<!-- firebase_databaseCollection.ane V15.0.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.database.collection</extensionID>
 
-<!-- firebase_dynamicLinks.ane -->
+<!-- firebase_dynamicLinks.ane V16.0.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.dynamicLinks</extensionID>
 
-<!-- firebase_firestore.ane -->
+<!-- firebase_firestore.ane V17.0.4 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.firestore</extensionID>
 
-<!-- firebase_iid.ane -->
+<!-- firebase_functions.ane V16.1.0  -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.functions</extensionID>
+
+<!-- firebase_iid.ane V16.2.0  -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.iid</extensionID>
 
-<!-- firebase_messaging.ane -->
+<!-- firebase_measurementConnector.ane V16.0.0  -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.measurement.connector</extensionID>
+
+<!-- firebase_measurementConnectorImpl.ane V16.0.1  -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.measurement.connector.impl</extensionID>
+
+<!-- firebase_messaging.ane V17.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.messaging</extensionID>
 
-<!-- firebase_perf.ane -->
+<!-- firebase_ml.ane V16.0.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.ml</extensionID>
+
+<!-- firebase_perf.ane V16.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.perf</extensionID>
 
-<!-- firebase_storage.ane -->
+<!-- firebase_storage.ane V16.0.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.storage</extensionID>
-
-<!-- firebase_storageCommon.ane -->
-<extensionID>com.myflashlab.air.extensions.dependency.firebase.storage.common</extensionID>
-
-<!-- firebase-analytics.ane -->
-<extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics</extensionID>
 ```
 
 Enjoy building Adobe Air apps,  
