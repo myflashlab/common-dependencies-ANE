@@ -64,3 +64,28 @@ private function invokeHandler(e:InvokeEvent):void
 	}
 }
 ```
+
+## iOS Simulator Support ##
+Since V5.1.4, [overrideAirSim.ane](https://github.com/myflashlab/common-dependencies-ANE/blob/master/overridAir/overrideAirSim.ane) is added. This ANE should be used only when building for iOS simulator. Why we have added this ANE? well, Facebook app reviewers are expecting developers to provide them with a simulator version of apps. Although you are able to talk to them and tell them that it will not be possible to provide simulator versions of your app because they are provided with ANEs and AdobeAIR, bla, bla, bla... Sometimes they will accept your explanation and sometimes they don't. So, to avoid all these, we have now included the iOS simulator version of the OverideAir and Facebook ANEs.
+
+When you are trying to prepare your app for Facebook reviewers, you must make sure you are not initializing other ANEs:
+
+```actionscript
+if(OverrideAir.os == OverrideAir.ANDROID || OverrideAir.os == OverrideAir.IOS)
+{
+	// You are on a mobile device. you should initialize ANEs
+}
+else
+{
+	if(OverrideAir.os == OverrideAir.IOS_SIM)
+	{
+		// You are on iOS simulator
+		// only overrideAirSim.ane and facebookSim.ane will work
+	}
+	else
+	{
+		// You are on AIR simulator!
+		// ANEs don't work here!
+	}
+}
+```
