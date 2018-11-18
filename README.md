@@ -1,24 +1,45 @@
-**NOTICE:** If you are here to download dependencies to use in your **Firebase** enabled project, make sure to read [this page](https://github.com/myflashlab/Firebase-ANE/blob/master/Dependencies.md) to find the right branch of the dependencies.
-
-----------------------------------------
-
-The main job of *Common Dependency ANEs* is to solve the problem of ANE conflicts mainly in Android builds. When using a lot of different ANEs in your Air project, it's very probable that some of these ANEs are using some shared libraries like the Google Play Services. If this happens, you won't be able to compile your project while using the two ANEs! This problem often happens when you are using ANEs from different providers. So, with this package of so called *Common Dependency ANEs*, we are trying to solve this problem once and forever. We are allowing other ANE providers/developers to freely use these ANEs in their projects, even the commercial ones! The Adobe AIR community will greatly benefit from this we're sure.
+The main job of *Common Dependency ANEs* is to solve the problem of ANE conflicts mainly in Android builds. When using a lot of different ANEs in your Air project, it's very probable that some of these ANEs are using some shared libraries like the Google Play Services. If this happens, you won't be able to compile your project while using the two ANEs! This problem often happens when you are using ANEs from different providers. So, with this package of so called *Common Dependency ANEs*, we are trying to solve this problem once and forever.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a>
 
 The other job of these ANEs is to make sure you are adding the minimum required amount of native code to your project. This will help you decrease the byte size of your final application. This approach will make sure your apps will be smaller in size compared to any other solutions.
 
-# For Adobe AIR developers
-If you are an AIR developer, using ANEs in your project, you can benefit from common dependencies based on what ANEs you are using. For you to know which ANE requires these common dependencies, you need to read the **AIR .xml manifest** section of that ANE where it clearly specifies which common ANEs from here you should add to your project. As an example, look at the [the Facebook ANE](https://github.com/myflashlab/facebook-ANE#air-xml-manifest).
-
-# For ANE developers/providers
+# Are you building your own ANE?
 We are inviting all AIR Native Extension developers/providers to freely use these dependencies in their free or commercial ANE products. These ANEs include the native APIs + required resources and when added to the AIR manifest .xml, they will automatically be ready to be used. You can address the native APIs provided by these ANEs from within your ANE.
 
 # How up-to-date are we?
 VERY! we are constantly monitoring the latest releases of these shared libraries and will update these ANEs as soon as we feel it's vital and required. This does not necessarily mean that the ANE version should match the native version.
 
 # How to use common dependency ANEs
-These ANEs are transpiled from native API to ActionScript. to add them to your project, all you have to do is to add these ANEs to your air .xml manifest file. You don't have to initialize them in your project. just make sure they will be compiled in your project and you're done.
+To add these ANEs to your project, all you have to do is to add them to your air .xml manifest file. You don't need to initialize them in your project. just make sure they will be compiled in your project and you're done.
+
+------------------------------------------------------
+**Override Air** current version is V5.6.1 This ANE is used to override some ANE methods provided by Adobe along with overriding some native methods on iOS and Android so ANE developers can have access to them with more comfort. This will help decrease the process of developing an ANE greatly. Note that this ANE is always required (on Android and iOS) if you are using any of MyFlashLabs ANEs. You usually don't need to initialize this ANE in your project. Our other ANEs will use it internally whenever they need it.
+```xml
+<!-- overrideAir.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
+```
+
+------------------------------------------------------
+**Bolts** V1.4.0
+```xml
+<!-- bolts.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.bolts</extensionID>
+```
+
+------------------------------------------------------
+**Gson** V2.8.2
+```xml
+<!-- gson.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.gson</extensionID>
+```
+
+------------------------------------------------------
+**tensorflow** V0.1.7
+```xml
+<!-- bolts.ane -->
+<extensionID>com.myflashlab.air.extensions.dependency.tensorflow</extensionID>
+```
 
 ------------------------------------------------------
 **Android Support Libraries**. https://developer.android.com/topic/libraries/support-library/revisions.html
@@ -54,26 +75,6 @@ These ANEs are transpiled from native API to ActionScript. to add them to your p
 <extensionID>com.myflashlab.air.extensions.dependency.androidSupport.v13</extensionID>
 ```
 
-------------------------------------------------------
-**Bolts** V1.4.0
-```xml
-<!-- bolts.ane -->
-<extensionID>om.myflashlab.air.extensions.dependency.bolts</extensionID>
-```
-
-------------------------------------------------------
-**tensorflow** V0.1.7
-```xml
-<!-- bolts.ane -->
-<extensionID>om.myflashlab.air.extensions.dependency.tensorflow</extensionID>
-```
-
-------------------------------------------------------
-**Override Air** current version is V5.1.4 This ANE is used to override some ANE methods provided by Adobe along with overriding some native methods on iOS and Android so ANE developers can have access to them with more comfort. This will help decrease the process of developing an ANE greatly. Note that this ANE is always required (on Android and iOS) if you are using any of MyFlashLabs ANEs. You don't need to initialize this ANE in your project. Our other ANEs will use it internally whenever they need it.
-```xml
-<!-- overrideAir.ane -->
-<extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
-```
 
 ------------------------------------------------------
 **Google Play Services**. https://developers.google.com/android/guides/releases

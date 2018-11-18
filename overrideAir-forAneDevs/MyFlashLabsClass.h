@@ -3,7 +3,7 @@
 //  overrideNative
 //
 //  Created by Hadi Tavakoli on 2/12/17.
-//  Copyright © 2017 Hadi Tavakoli. All rights reserved.
+//  Copyright © 2018 Myflashlabs. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,6 +15,11 @@
 @property(strong, nonatomic) id MyFlashLabsClass;
 
 +(MyFlashLabsClass*)sharedInstance;
+
+-(void)saveAneLabId:(NSString*)value;
+-(void)addANE:(NSString*)theId version:(NSString*)v;
+-(BOOL)hasAnyDemoAne;
+-(BOOL)isAneRegistered:(NSString*)theId;
 
 -(void)saveMyflashlabDebugger:(BOOL)value;
 -(void)saveContext:(FREContext)value;
