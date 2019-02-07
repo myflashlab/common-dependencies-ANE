@@ -1,4 +1,4 @@
-This ANE is the main dependency ANE which is required for ALL of MyFlashLabs ANEs. To be able to compile your projects with our ANEs, you need to have this ANE added to your project. This dependency is required for iOS and Android builds, both.
+This ANE is the main dependency ANE which is required for ALL of MyFlashLabs ANEs. To be able to compile your projects with our ANEs, you need to have this ANE added to your project. This dependency is required for iOS (9.0+) and Android (API 19+) builds, both.
 
 ## OverrideAir.enableDebugger() ##
 This is a unified way of ANE debugging system which allows you to activate ANE debugging to receive more information about how an ANE is operating in your project. To activate this, you need to call [OverrideAir.enableDebugger()](https://myflashlab.github.io/asdoc/com/myflashlab/air/extensions/dependency/OverrideAir.html#enableDebugger()) before initializing any other ANEs.

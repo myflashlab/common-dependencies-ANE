@@ -3,7 +3,7 @@
 //  overrideNative
 //
 //  Created by Hadi Tavakoli on 2/12/17.
-//  Copyright © 2017 MyFlashLabs. All rights reserved.
+//  Copyright © 2019 MyFlashLabs. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -29,6 +29,8 @@
 -(NSString*)retriveCommandNotFound;
 
 // setter - getter
+-(void)saveShortcutItem:(UIApplicationShortcutItem*)shortcutItem;
+-(UIApplicationShortcutItem*)retriveShortcutItem;
 -(void)saveApplication:(UIApplication*)app;
 -(UIApplication*)retriveApplication;
 -(void)saveLaunchingOptions:(NSDictionary*)value;
