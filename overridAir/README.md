@@ -1,4 +1,10 @@
-This ANE is the main dependency ANE which is required for ALL of MyFlashLabs ANEs. To be able to compile your projects with our ANEs, you need to have this ANE added to your project. This dependency is required for iOS (9.0+) and Android (API 19+) builds, both.
+This ANE is the main dependency ANE which is required for ALL of MyFlashLabs ANEs. To be able to compile your projects with our ANEs, you need to have this ANE added to your project. This dependency works on iOS (9.0+) and Android (API 19+) builds.
+
+## iOS App Submission ## 
+**IMPORTANT:** You must notice that this ANE is using standard iOS encryption library, [CommonCrypto](https://developer.apple.com/library/archive/samplecode/CryptoCompatibility/Listings/Operations_QCCAESPadBigCryptor_m.html#//apple_ref/doc/uid/DTS40013654-Operations_QCCAESPadBigCryptor_m-DontLinkElementID_6). This means that when you are submitting your iOS app which includes this ANE, when you are asked if your app uses any encryption, you must answer YES. **The encryption we have used in the ANE is limited to that within the Apple operating system**. So [according to the apple](https://help.apple.com/app-store-connect/#/devc3f64248f), no documentation is required in App Store Connect. You may also notice that this is exactly the same thing when your app makes any HTTPS calls! Contact apple for more details about this.
+![Export Compliance](https://myflashlab.github.io/resources/ExportCompliance.jpg)
+
+---------------
 
 ## OverrideAir.enableDebugger() ##
 This is a unified way of ANE debugging system which allows you to activate ANE debugging to receive more information about how an ANE is operating in your project. To activate this, you need to call [OverrideAir.enableDebugger()](https://myflashlab.github.io/asdoc/com/myflashlab/air/extensions/dependency/OverrideAir.html#enableDebugger()) before initializing any other ANEs.
