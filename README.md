@@ -14,7 +14,7 @@ VERY! we are constantly monitoring the latest releases of these shared libraries
 To add these ANEs to your project, all you have to do is to add them to your air .xml manifest file. You don't need to initialize them in your project. just make sure they will be compiled in your project and you're done.
 
 ------------------------------------------------------
-**Override Air** current version is V6.1.0 This ANE is used to override some ANE methods provided by Adobe along with overriding some native methods on iOS and Android so ANE developers can have access to them with more comfort. This will help decrease the process time of developing an ANE greatly. Note that this ANE is always required (on Android and iOS) if you are using any of MyFlashLabs ANEs. You usually don't need to initialize this ANE in your project. Our other ANEs will use it internally whenever they need it.
+**Override Air** current version is V6.1.1 This ANE is used to override some ANE methods provided by Adobe along with overriding some native methods on iOS and Android so ANE developers can have access to them with more comfort. This will help decrease the process time of developing an ANE greatly. Note that this ANE is always required (on Android and iOS) if you are using any of MyFlashLabs ANEs. You usually don't need to initialize this ANE in your project. Our other ANEs will use it internally whenever they need it.
 ```xml
 <!-- overrideAir.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
@@ -35,7 +35,7 @@ To add these ANEs to your project, all you have to do is to add them to your air
 ```
 
 ------------------------------------------------------
-**tensorflow** V0.1.7
+**tensorflow** V1.12.0
 ```xml
 <!-- bolts.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.tensorflow</extensionID>
@@ -79,76 +79,70 @@ To add these ANEs to your project, all you have to do is to add them to your air
 ------------------------------------------------------
 **Google Play Services**. https://developers.google.com/android/guides/releases
 ```xml
-<!-- googlePlayServices_ads.ane V15.0.1 -->
+<!-- googlePlayServices_ads.ane V17.2.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads</extensionID>
 
-<!-- googlePlayServices_adsLite.ane V15.0.1 -->
+<!-- googlePlayServices_adsLite.ane V17.2.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads.lite</extensionID>
 
-<!-- googlePlayServices_analytics.ane V16.0.1 -->
+<!-- googlePlayServices_analytics.ane V16.0.8 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.analytics</extensionID>
 
-<!-- googlePlayServices_appinvite.ane V16.0.1 -->
+<!-- googlePlayServices_appinvite.ane V16.1.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.appinvite</extensionID>
 
-<!-- googlePlayServices_auth.ane V15.0.1 -->
+<!-- googlePlayServices_auth.ane V16.0.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.auth</extensionID>
 
-<!-- googlePlayServices_base.ane V15.0.1 -->
+<!-- googlePlayServices_base.ane V16.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.base</extensionID>
 
-<!-- googlePlayServices_basement.ane V15.0.1 -->
+<!-- googlePlayServices_basement.ane V16.2.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.basement</extensionID>
 
-<!-- googlePlayServices_clearcut.ane V15.0.1 -->
+<!-- googlePlayServices_clearcut.ane V16.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.clearcut</extensionID>
 
-<!-- googlePlayServices_drive.ane V15.0.1 -->
+<!-- googlePlayServices_drive.ane V16.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.drive</extensionID>
 
-<!-- googlePlayServices_flags.ane V15.0.1 -->
+<!-- googlePlayServices_flags.ane V16.0.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.flags</extensionID>
 
-<!-- googlePlayServices_games.ane V15.0.1 -->
+<!-- googlePlayServices_games.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.games</extensionID>
 
-<!-- googlePlayServices_gass.ane V15.0.1 -->
+<!-- googlePlayServices_gass.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.gass</extensionID>
 
-<!-- googlePlayServices_location.ane V15.0.1 -->
+<!-- googlePlayServices_location.ane V16.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.location</extensionID>
 
-<!-- googlePlayServices_maps.ane V15.0.1 -->
+<!-- googlePlayServices_maps.ane V16.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.maps</extensionID>
 
-<!-- googlePlayServices_measurementBase.ane V16.0.0 -->
+<!-- googlePlayServices_measurementBase.ane V16.4.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.measurementBase</extensionID>
 
-<!-- googlePlayServices_nearby.ane V15.0.1  -->
-<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.nearby</extensionID>
-
-<!-- googlePlayServices_panorama.ane V15.0.1 -->
+<!-- googlePlayServices_panorama.ane V16.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.panorama</extensionID>
 
-<!-- googlePlayServices_phenotype.ane V15.0.1 -->
+<!-- googlePlayServices_phenotype.ane V16.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.phenotype</extensionID>
 
-<!-- googlePlayServices_places.ane V15.0.1 -->
+<!-- googlePlayServices_places.ane V16.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.places</extensionID>
 
-<!-- googlePlayServices_plus.ane V15.0.1 -->
-<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.plus</extensionID>
-
-<!-- googlePlayServices_safetynet.ane V15.0.1 -->
-<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.safetynet</extensionID>
-
-<!-- googlePlayServices_stats.ane V15.0.1 -->
+<!-- googlePlayServices_stats.ane V16.0.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.stats</extensionID>
 
-<!-- googlePlayServices_tasks.ane V15.0.1 -->
+<!-- googlePlayServices_tagmanager.ane V16.0.8 -->
+<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.tagmanager</extensionID>
+
+<!-- googlePlayServices_tasks.ane V16.0.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.tasks</extensionID>
 
-<!-- googlePlayServices_vision.ane V15.0.2 -->
+<!-- googlePlayServices_vision.ane V17.0.2 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.vision</extensionID>
 ```
 
@@ -174,64 +168,61 @@ To add these ANEs to your project, all you have to do is to add them to your air
 ------------------------------------------------------
 **Firebase**. https://firebase.google.com/support/release-notes/android
 ```xml
-<!-- firebase_abt.ane V16.0.0 -->
+<!-- firebase_abt.ane V17.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.abt</extensionID>
 
-<!-- firebase_addons.ane V1.0.0 -->
+<!-- firebase_addons.ane V2.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.addons</extensionID>
 
-<!-- firebase_analytics.ane V16.0.1 -->
+<!-- firebase_analytics.ane V16.4.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics</extensionID>
 
-<!-- firebase_analyticsImpl.ane V16.1.1 -->
-<extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics.impl</extensionID>
-
-<!-- firebase_appindexing.ane V16.0.1 -->
+<!-- firebase_appindexing.ane V17.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.appindexing</extensionID>
 
-<!-- firebase_auth.ane V16.0.2 -->
+<!-- firebase_auth.ane V16.2.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.auth</extensionID>
 
-<!-- firebase_common.ane V16.0.0 -->
+<!-- firebase_common.ane V16.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.common</extensionID>
 
-<!-- firebase_config.ane V16.0.0 -->
+<!-- firebase_config.ane V16.5.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.config</extensionID>
 
-<!-- firebase_database.ane V16.0.1 -->
+<!-- firebase_database.ane V16.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.database</extensionID>
 
-<!-- firebase_databaseCollection.ane V15.0.1 -->
+<!-- firebase_databaseCollection.ane V16.0.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.database.collection</extensionID>
 
-<!-- firebase_dynamicLinks.ane V16.0.1 -->
+<!-- firebase_dynamicLinks.ane V16.1.8 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.dynamicLinks</extensionID>
 
-<!-- firebase_firestore.ane V17.0.4 -->
+<!-- firebase_firestore.ane V18.2.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.firestore</extensionID>
 
-<!-- firebase_functions.ane V16.1.0  -->
+<!-- firebase_functions.ane V16.3.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.functions</extensionID>
 
-<!-- firebase_iid.ane V16.2.0  -->
+<!-- firebase_iid.ane V17.1.2 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.iid</extensionID>
 
-<!-- firebase_measurementConnector.ane V16.0.0  -->
+<!-- firebase_iid.ane V17.1.1 -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.inappmessaging</extensionID>
+
+<!-- firebase_measurementConnector.ane V17.0.1  -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.measurement.connector</extensionID>
 
-<!-- firebase_measurementConnectorImpl.ane V16.0.1  -->
-<extensionID>com.myflashlab.air.extensions.dependency.firebase.measurement.connector.impl</extensionID>
-
-<!-- firebase_messaging.ane V17.1.0 -->
+<!-- firebase_messaging.ane V17.6.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.messaging</extensionID>
 
-<!-- firebase_ml.ane V16.0.0 -->
+<!-- firebase_ml.ane V19.0.3 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.ml</extensionID>
 
-<!-- firebase_perf.ane V16.0.0 -->
+<!-- firebase_perf.ane V16.2.5 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.perf</extensionID>
 
-<!-- firebase_storage.ane V16.0.1 -->
+<!-- firebase_storage.ane V16.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.storage</extensionID>
 ```
 
