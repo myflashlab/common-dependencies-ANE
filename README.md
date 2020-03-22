@@ -28,9 +28,9 @@ To add these ANEs to your project, all you have to do is to add them to your air
 ```
 
 ------------------------------------------------------
-**tensorflow** V1.12.1
+**tensorflow** V1.13.1
 ```xml
-<!-- bolts.ane -->
+<!-- tensorflow.ane -->
 <extensionID>com.myflashlab.air.extensions.dependency.tensorflow</extensionID>
 ```
 
