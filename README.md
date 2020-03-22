@@ -75,70 +75,67 @@ To add these ANEs to your project, all you have to do is to add them to your air
 ------------------------------------------------------
 **Google Play Services**. https://developers.google.com/android/guides/releases
 ```xml
-<!-- googlePlayServices_ads.ane V17.2.1 -->
+<!-- googlePlayServices_ads.ane V18.3.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads</extensionID>
 
-<!-- googlePlayServices_adsLite.ane V17.2.1 -->
+<!-- googlePlayServices_adsLite.ane V18.3.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.ads.lite</extensionID>
 
-<!-- googlePlayServices_analytics.ane V16.0.81 -->
+<!-- googlePlayServices_analytics.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.analytics</extensionID>
 
-<!-- googlePlayServices_appinvite.ane V16.1.11 -->
-<extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.appinvite</extensionID>
-
-<!-- googlePlayServices_auth.ane V16.0.11 -->
+<!-- googlePlayServices_auth.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.auth</extensionID>
 
-<!-- googlePlayServices_base.ane V16.1.1 -->
+<!-- googlePlayServices_base.ane V17.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.base</extensionID>
 
-<!-- googlePlayServices_basement.ane V16.2.1 -->
+<!-- googlePlayServices_basement.ane V17.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.basement</extensionID>
 
-<!-- googlePlayServices_clearcut.ane V16.0.1 -->
+<!-- googlePlayServices_clearcut.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.clearcut</extensionID>
 
-<!-- googlePlayServices_drive.ane V16.1.1 -->
+<!-- googlePlayServices_drive.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.drive</extensionID>
 
-<!-- googlePlayServices_flags.ane V16.0.11 -->
+<!-- googlePlayServices_flags.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.flags</extensionID>
 
-<!-- googlePlayServices_games.ane V17.0.1 -->
+<!-- googlePlayServices_games.ane V19.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.games</extensionID>
 
-<!-- googlePlayServices_gass.ane V17.0.1 -->
+<!-- googlePlayServices_gass.ane V18.3.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.gass</extensionID>
 
-<!-- googlePlayServices_location.ane V16.0.1 -->
+<!-- googlePlayServices_location.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.location</extensionID>
 
-<!-- googlePlayServices_maps.ane V16.0.1 -->
+<!-- googlePlayServices_maps.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.maps</extensionID>
 
-<!-- googlePlayServices_measurementBase.ane V16.4.1 -->
+<!-- googlePlayServices_measurementBase.ane V17.2.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.measurementBase</extensionID>
 
-<!-- googlePlayServices_panorama.ane V16.0.1 -->
+<!-- googlePlayServices_panorama.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.panorama</extensionID>
 
-<!-- googlePlayServices_phenotype.ane V16.0.1 -->
+<!-- googlePlayServices_phenotype.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.phenotype</extensionID>
 
-<!-- googlePlayServices_places.ane V16.0.1 -->
+<!-- googlePlayServices_places.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.places</extensionID>
 
-<!-- googlePlayServices_stats.ane V16.0.11 -->
+<!-- googlePlayServices_stats.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.stats</extensionID>
 
-<!-- googlePlayServices_tagmanager.ane V16.0.81 -->
+<!-- googlePlayServices_tagmanager.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.tagmanager</extensionID>
 
-<!-- googlePlayServices_tasks.ane V16.0.11 -->
+<!-- googlePlayServices_tasks.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.tasks</extensionID>
 
-<!-- googlePlayServices_vision.ane V17.0.21 -->
+<!-- googlePlayServices_vision.ane V19.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.vision</extensionID>
 ```
 
