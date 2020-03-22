@@ -164,61 +164,73 @@ To add these ANEs to your project, all you have to do is to add them to your air
 ------------------------------------------------------
 **Firebase**. https://firebase.google.com/support/release-notes/android
 ```xml
-<!-- firebase_abt.ane V17.1.1 -->
+<!-- firebase_abt.ane V19.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.abt</extensionID>
 
-<!-- firebase_addons.ane V2.0.1 -->
-<extensionID>com.myflashlab.air.extensions.dependency.firebase.addons</extensionID>
+<!-- firebase_addons_fcm.ane V3.0.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.addons.fcm</extensionID>
 
-<!-- firebase_analytics.ane V16.4.1 -->
+<!-- firebase_addons_firestore.ane V3.0.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.addons.firestore</extensionID>
+
+<!-- firebase_addons_squareup.ane V3.0.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.addons.squareup</extensionID>
+
+<!-- firebase_analytics.ane V17.2.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.analytics</extensionID>
 
-<!-- firebase_appindexing.ane V17.1.1 -->
+<!-- firebase_appindexing.ane V19.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.appindexing</extensionID>
 
-<!-- firebase_auth.ane V16.2.11 -->
+<!-- firebase_auth.ane V19.2.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.auth</extensionID>
 
-<!-- firebase_common.ane V16.1.1 -->
+<!-- firebase_common.ane V19.3.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.common</extensionID>
 
-<!-- firebase_config.ane V16.5.1 -->
+<!-- firebase_config.ane V19.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.config</extensionID>
 
-<!-- firebase_database.ane V16.1.1 -->
+<!-- firebase_database.ane V19.2.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.database</extensionID>
 
-<!-- firebase_databaseCollection.ane V16.0.11 -->
+<!-- firebase_databaseCollection.ane V17.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.database.collection</extensionID>
 
-<!-- firebase_dynamicLinks.ane V16.1.81 -->
+<!-- firebase_datatransport.ane V17.0.3 -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.datatransport</extensionID>
+
+<!-- firebase_dynamicLinks.ane V19.0.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.dynamicLinks</extensionID>
 
-<!-- firebase_firestore.ane V18.2.1 -->
+<!-- firebase_encoders_json.ane V16.0.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.firebase.encoders.json</extensionID>
+
+<!-- firebase_firestore.ane V21.3.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.firestore</extensionID>
 
-<!-- firebase_functions.ane V16.3.1 -->
+<!-- firebase_functions.ane V19.0.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.functions</extensionID>
 
-<!-- firebase_iid.ane V17.1.21 -->
+<!-- firebase_iid.ane V20.0.2 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.iid</extensionID>
 
-<!-- firebase_inappmessaging.ane V17.1.11 -->
+<!-- firebase_inappmessaging.ane V19.0.2 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.inappmessaging</extensionID>
 
-<!-- firebase_measurementConnector.ane V17.0.11  -->
+<!-- firebase_measurementConnector.ane V18.0.0  -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.measurement.connector</extensionID>
 
-<!-- firebase_messaging.ane V17.6.1 -->
+<!-- firebase_messaging.ane V20.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.messaging</extensionID>
 
-<!-- firebase_ml.ane V19.0.31 -->
+<!-- firebase_ml.ane V24.0.1 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.ml</extensionID>
 
-<!-- firebase_perf.ane V16.2.51 -->
+<!-- firebase_perf.ane V19.0.4 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.perf</extensionID>
 
-<!-- firebase_storage.ane V16.1.1 -->
+<!-- firebase_storage.ane V19.1.0 -->
 <extensionID>com.myflashlab.air.extensions.dependency.firebase.storage</extensionID>
 ```
 
