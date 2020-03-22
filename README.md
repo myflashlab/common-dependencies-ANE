@@ -21,13 +21,6 @@ To add these ANEs to your project, all you have to do is to add them to your air
 ```
 
 ------------------------------------------------------
-**Bolts** V1.4.1
-```xml
-<!-- bolts.ane -->
-<extensionID>com.myflashlab.air.extensions.dependency.bolts</extensionID>
-```
-
-------------------------------------------------------
 **Gson** V2.8.21
 ```xml
 <!-- gson.ane -->
@@ -42,37 +35,40 @@ To add these ANEs to your project, all you have to do is to add them to your air
 ```
 
 ------------------------------------------------------
-**Android Support Libraries**. https://developer.android.com/topic/libraries/support-library/revisions.html
+**Androidx Libraries**. https://developer.android.com/jetpack/androidx/versions
 ```xml
-<!-- androidSupport-core.ane V27.1.11 -->
-<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.core</extensionID>
+<!-- androidx_arch.ane V1.1.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidx.arch</extensionID>
 
-<!-- androidSupport-v4.ane V27.1.11 -->
-<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.v4</extensionID>
+<!-- androidx_biometric.ane V1.1.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidx.biometric</extensionID>
 
-<!-- androidSupport-appcompatV7.ane V27.1.11 -->
-<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.appcompatV7</extensionID>
+<!-- androidx_browser.ane V1.1.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidx.browser</extensionID>
 
-<!-- androidSupport-arch.ane V1.1.11 -->
-<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.arch</extensionID>
+<!-- androidx_cardview.ane V1.1.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidx.cardview</extensionID>
 
-<!-- androidSupport-cardviewV7.ane V27.1.11 -->
-<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.cardviewV7</extensionID>
+<!-- androidx_core.ane V1.1.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidx.core</extensionID>
 
-<!-- androidSupport-customtabs.ane V27.1.11 -->
-<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.customtabs</extensionID>
+<!-- androidx_design.ane V1.1.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidx.design</extensionID>
 
-<!-- androidSupport-design.ane V27.1.11 -->
-<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.design</extensionID>
+<!-- androidx_exifinterface.ane V1.1.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidx.exifinterface</extensionID>
 
-<!-- androidSupport-exifinterface.ane V27.1.11 -->
-<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.exifinterface</extensionID>
+<!-- androidx_lifecycle.ane V1.1.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidx.lifecycle</extensionID>
 
-<!-- androidSupport-mediarouterV7.ane V27.1.11 -->
-<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.mediarouterV7</extensionID>
+<!-- androidx_mediarouter.ane V1.1.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidx.mediarouter</extensionID>
 
-<!-- androidSupport-v13.ane V27.1.11 -->
-<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.v13</extensionID>
+<!-- androidx_utils.ane V1.1.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidx.utils</extensionID>
+
+<!-- androidx_vector.ane V1.1.0 -->
+<extensionID>com.myflashlab.air.extensions.dependency.androidx.vector</extensionID>
 ```
 
 
